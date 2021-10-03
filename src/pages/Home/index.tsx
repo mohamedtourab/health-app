@@ -2,7 +2,6 @@ import {lazy} from "react";
 import IntroContent from "../../content/IntroContent.json";
 import FoodContent from "../../content/FoodContent.json";
 import MissionContent from "../../content/MissionContent.json";
-import ProductContent from "../../content/ProductContent.json";
 import BodyContent from "../../content/BodyContent.json";
 import MindContent from "../../content/MindContent.json";
 import PreventionContent from "../../content/PreventionContent.json";
@@ -58,7 +57,7 @@ const Home = () => {
                 type="right"
                 title={MissionContent.title}
                 content={MissionContent.text}
-                icon="product-launch.svg"
+                icon="indicators.svg"
                 id="indicators"
             />
         </Container>
