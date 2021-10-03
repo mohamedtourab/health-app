@@ -1,16 +1,16 @@
-import { useState } from "react";
-import { Row, Col, Drawer } from "antd";
-import { withTranslation } from "react-i18next";
+import {useState} from "react";
+import {Col, Drawer, Row} from "antd";
+import {withTranslation} from "react-i18next";
 import Container from "../../common/Container";
-import { SvgIcon } from "../../common/SvgIcon";
+import {SvgIcon} from "../../common/SvgIcon";
 import {
-  HeaderSection,
-  LogoContainer,
   Burger,
-  NotHidden,
-  Menu,
   CustomNavLinkSmall,
+  HeaderSection,
   Label,
+  LogoContainer,
+  Menu,
+  NotHidden,
   Outline,
   Span,
 } from "./styles";
@@ -42,9 +42,6 @@ const Header = ({ t }: any) => {
         <CustomNavLinkSmall onClick={() => scrollTo("indicators")}>
           <Span>{t("Indicators")}</Span>
         </CustomNavLinkSmall>
-        <CustomNavLinkSmall onClick={() => scrollTo("product")}>
-          <Span>{t("Product")}</Span>
-        </CustomNavLinkSmall>-
       </>
     );
   };
